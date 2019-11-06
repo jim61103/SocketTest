@@ -55,6 +55,7 @@ namespace SocketTest
             byte[] arrClientSendMsg = Encoding.ASCII.GetBytes(sendMsg);
             //呼叫客戶端套接字傳送位元組陣列     
             SocketClient.Send(arrClientSendMsg);
+            //test
         }
 
         //接收服務端發來資訊的方法    
